@@ -11,3 +11,4 @@ requests
 beautifulsoup4
 langchain-openai
 tavily-python
+supabase
