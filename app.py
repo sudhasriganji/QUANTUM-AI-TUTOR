@@ -130,6 +130,99 @@ body,
         "Inter",
         sans-serif;
 }
+/* =========================================================
+   STRONG TEXT VISIBILITY FIX
+   ========================================================= */
+
+html,
+body,
+.stApp,
+.stApp * {
+    color: #ffffff !important;
+}
+
+/* Main Streamlit text */
+.stMarkdown,
+.stMarkdown p,
+.stMarkdown li,
+.stMarkdown span,
+.stMarkdown div {
+    color: #ffffff !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Captions */
+[data-testid="stCaptionContainer"],
+[data-testid="stCaptionContainer"] * {
+    color: #cbd5e1 !important;
+    opacity: 1 !important;
+}
+
+/* Chat messages */
+[data-testid="stChatMessage"],
+[data-testid="stChatMessage"] *,
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] div {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"],
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* Input text */
+input,
+textarea {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Input placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #94a3b8 !important;
+    opacity: 1 !important;
+}
+
+/* Buttons */
+button,
+button * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Labels */
+label,
+label * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Expander / tabs */
+[data-testid="stExpander"],
+[data-testid="stExpander"] *,
+button[data-baseweb="tab"],
+button[data-baseweb="tab"] * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Remove faded appearance */
+.stMarkdown,
+.stText,
+.stCaption,
+[data-testid="stMarkdownContainer"] {
+    opacity: 1 !important;
+}
 
 
 .stApp {
