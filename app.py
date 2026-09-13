@@ -304,6 +304,7 @@ body,
     position: relative;
 
     z-index: 2;
+
 }
 
 
@@ -428,81 +429,29 @@ section[data-testid="stSidebar"] .stButton button:hover {
 
 
 .main-title {
-
     text-align: center;
-
-    font-family:
-        "Space Grotesk",
-        sans-serif;
-
-    font-size:
-        clamp(34px, 5vw, 58px);
-
-    font-weight: 700;
-
-    letter-spacing: 5px;
-
-    background:
-
-        linear-gradient(
-            90deg,
-            #ffffff,
-            #c4b5fd,
-            #93c5fd,
-            #ffffff
-        );
-
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff !important;
+    opacity: 1 !important;
+    margin-top: 10px;
 }
-
 
 .subtitle {
-
     text-align: center;
-
-    max-width: 780px;
-
-    margin:
-        8px auto 15px auto;
-
-    color: #94a3b8;
-
-    font-size: 14px;
-
-    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e2e8f0 !important;
+    opacity: 1 !important;
+    margin-bottom: 20px;
 }
 
-
 .online {
-
-    width: fit-content;
-
-    margin:
-        0 auto 18px auto;
-
-    padding:
-        6px 14px;
-
-    border-radius: 999px;
-
-    color: #86efac;
-
-    background:
-        rgba(34,197,94,.05);
-
-    border:
-        1px solid rgba(34,197,94,.20);
-
-    font-size: 10px;
-
-    font-weight: 700;
-
-    letter-spacing: 1.7px;
-
-    box-shadow:
-        0 0 20px rgba(34,197,94,.08);
+    text-align: center;
+    color: #00ff88 !important;
+    font-weight: bold;
+    opacity: 1 !important;
+    margin-bottom: 30px;
 }
 
 
